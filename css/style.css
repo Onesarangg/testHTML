@@ -1,0 +1,333 @@
+body{
+    margin: 0 auto;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 650px;
+}
+.box{
+    width: 100%;
+    min-height: 645px;
+}
+.row{
+    width: 100%;
+}
+.rl{
+    position: relative;
+}
+.boxmain{
+    width: 100%;
+    min-height: 550px;
+    position: relative;
+}
+.boxtren{
+    width: 100%;
+    min-height: 500px;
+    position: absolute;
+    z-index: 1;
+}
+.boxgiua{
+    width: 60%;
+    margin-left: 20%;
+    position: absolute;
+    z-index: 2;
+    margin-top: 30%;
+    min-height: 150px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+.demo3{
+    background-image: url(../img/4657176_20181010_133323.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.menu{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    min-height: 100px;
+    position: absolute;
+    z-index: 2;
+}
+.logo{
+    width: 20%;
+    float: left;
+    font-size: 2vw;
+    font-weight: bolder;
+    margin-top: 0.5%;
+}
+.logo a{
+    text-decoration: none;
+}
+.menu1{
+    width: 60%;
+    float: left;
+}
+.menu1 ul{
+    list-style: none;
+}
+.menu1 ul li{
+    font-weight: bolder;
+    float: left; 
+    position: relative;
+    padding: 5px 0px;
+    margin-left: 10%;
+}
+.menu1 ul li:hover::after{
+    content: ' ';
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border: 1px #4D46FA solid;
+}
+.menu1 ul li a:hover{
+    color: #4D46FA;
+}
+.menu1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.box-booking{
+    width: 10%;
+    float: right;
+    min-height: 15px;
+    border-radius: 15px ;
+    background-color: #4D46FA;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bolder;
+}
+.box-booking a{
+    color: #FFF;
+    text-decoration: none;
+}
+.box-booking:hover{
+    background-color: #423dd8;
+}
+.text{
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 10%;
+    float: left;
+    text-align: left; 
+    font-size: 1vw;
+    position: absolute;
+    z-index: 2;
+}
+span{
+    font-family: 'Allura', cursive;
+    font-size: 4vw;
+    color: #4D46FA;
+    font-weight: bolder;
+}
+
+.menunho{
+    float: left;
+    width: 100%;
+}
+.menunho ul{
+    list-style: none;
+}
+.menunho ul li a{
+    font-weight: bolder;
+    float: left; 
+    position: relative;
+    padding: 5px 5px 6px 15px;
+    text-decoration: none;
+    color: black;
+}
+.menunho ul li a:hover{
+    text-decoration: underline;
+}
+.info-plane{
+    float: left;
+    width: 100%;
+    margin-left: 5%;
+}
+.info{
+    min-height: 80px;
+    border-radius: 5px; 
+    font-weight: bolder; 
+    line-height: 5px;
+    border: 1px grey solid;
+}
+.info:hover{
+    min-height: 80px;
+    border-radius: 5px; 
+    font-weight: bolder; 
+    line-height: 5px;
+    border: 1px #4D46FA solid;
+}
+.from{
+    width: 14%;
+    float: left;
+    padding-left: 2%;
+}
+.to{
+    width: 15%;
+    margin-left: 4%;
+    float: left;
+    padding-left: 2%;
+}
+.time{
+    width: 50%;
+    margin-left: 40%;
+   
+}
+.time-depart{
+    width: 43%;
+    float: left;
+    padding-left: 5%; 
+}
+.time-depart a{
+    color: rgb(56, 55, 55);
+    text-decoration: none;    
+    font-weight: normal;
+}
+.time-depart a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.time-return{
+    width: 45%;
+    float: left;
+    margin-left: 2%;
+}
+.time-return a{
+    color: rgb(56, 55, 55);
+    text-decoration: none;    
+    font-weight: normal;
+}
+.time-return a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.info-plane-small{
+    color: grey; 
+    font-size: 0.8vw;
+}
+.info-plane-big{
+    color: #4D46FA; 
+    font-size: 1.3vw;
+}
+.search-plane{
+    width: 25%;
+    min-height: 38px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 5;
+    margin: 17% 0 0 70%;
+    position: absolute;
+    background: #4D46FA;
+    border-radius: 12px;
+}
+.search-plane a{
+    color: #FFF;
+    position: absolute;
+    font-style: normal;
+    margin: 5% 10% 0 5%;
+    text-decoration: none;
+}
+.search-plane a:hover{
+    text-decoration: underline;
+}
+
+.box-info{
+    width: 80%;
+    color: black;
+    position: absolute;
+    z-index: 4;
+    margin-top: 4%;
+    margin-left: 10%;
+    font-weight: bolder;
+}
+.box-info p{
+    float: left;
+    margin-left: 5%;
+}
+
+
+/* Reponsive */
+
+@media(min-width:992px){
+    
+}
+
+/* Flight Schedule */
+.box-menu {
+    width: 100%;
+    background-color: #4D46FA;
+    min-height: 80px;
+}
+.bg{
+    background-color: #FFF; 
+}
+.bg:hover{
+    background-color: #FFF; 
+}
+.bg a{
+   color: #4D46FA; 
+}
+.bgtext ul li a{
+    color: #FFF;
+}
+.bgtext ul li a:hover{
+    color: #FFF;
+}
+.bgtext ul li:hover::after{
+    content: ' ';
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border: 1px #ffffff solid;
+}
+.box-flight{
+    width: 100%;
+    min-height: 80px;
+    background-color: #df9292;
+}
+.flight{
+    width: 80%;
+    float: left;
+    margin: 1% 0% 0 10%;
+}
+.flight-change{
+    width: 10%;
+    float: right;
+    min-height: 15px;
+    border-radius: 15px ;
+    background-color: #F06336;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bolder;
+    /* margin: 2% 0% 0 0; */
+}
+.flight-change a{
+    color: #FFF;
+    text-decoration: none;
+}
+.flight-sche{
+    width: 60%;
+    float: left;
+    /* margin: -2% 0 0 0; */
+    line-height: 5px;
+}
+.fli{
+    width: 25%;
+    float: left;
+    min-height: 50px;
+    margin: 0 5% 0 0;
+}
+.flib{
+    width: 25%;
+    float: left;
+    min-height: 50px;
+    /* margin: 0 5% 0 0; */
+}
+.flight-info{
+    width: 60%;
+    float: left;
+    margin-left: -30%;
+}
